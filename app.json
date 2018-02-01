@@ -1,0 +1,33 @@
+{
+  "name": "node-git-mobile-hub",
+  "description": "xiaodong test node.js project to be deployed to AWS mobile hub",
+  "repository": "https://github.com/xiaodongliang/node-git-mobile-hub",
+  "logo": "https://avatars0.githubusercontent.com/u/8017462?v=3&s=200",
+  "keywords": [
+    "express",
+    "framework",
+    "autodesk",
+    "forge",
+    "template"
+  ],
+  "env": {
+    "FORGE_CLIENT_ID": {
+      "description": "Forge Client ID"
+    },
+    "FORGE_CLIENT_SECRET": {
+      "description": "Forge Client Secret"
+    },
+    "BOX_CLIENT_ID": {
+      "description": "Box Client ID"
+    },
+    "BOX_CLIENT_SECRET": {
+      "description": "Box Client Secret"
+    },
+    "BOX_CALLBACK_URL": {
+      "description": "Redirect URI of your Box app, required for 3-legged OAuth",
+      "value": "https://<<YOUR HEROKU APP NAME HERE>>.herokuapp.com/api/box/callback/oauth"
+    }
+  },
+  "website": "https://developer.autodesk.com/",
+  "success_url": "/"
+}
