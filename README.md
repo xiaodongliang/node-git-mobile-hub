@@ -2,7 +2,7 @@
 
  
 <p>
-<a target="_blank" href="https://console.aws.amazon.com/mobilehub/home?#/?config=xiaodongtest.zip">
+<a target="_blank" href="https://console.aws.amazon.com/mobilehub/home?#/?config=photoapptemplate.zip">
 <span>
     <img height="100%" src="https://s3.amazonaws.com/deploytomh/button-deploy-aws-mh.png"/>
 </span>
